@@ -105,7 +105,7 @@
 }
 
 .img-sponsor {
-  max-height: 4em; /* Adjust the maximum height as needed */
+  max-height: 4em !important; /* Adjust the maximum height as needed */
   width: auto; /* Ensure the width adjusts proportionally */
 }
 
@@ -114,5 +114,23 @@
   padding: 20px;
   text-align: center;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  height: 100vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.visi-section {
+  background-color: #f7fff3;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

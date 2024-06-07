@@ -3,7 +3,7 @@
   border-radius: 2em;
   margin: 1em;
   background-color: rgba(195, 195, 195, 0.5);
-  position: absolute !important;
+  position: fixed !important;
   width: calc(100% - 2em);
   z-index: 10;
 }
@@ -35,7 +35,6 @@
   padding-top: 6em;
   background: url("Hero.png") no-repeat center center;
   background-size: cover;
-  height: 100vh;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -44,6 +43,15 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  height: 100vh;
+}
+
+/* For vertical orientation */
+@media (orientation: portrait) {
+  .jumbotron {
+    padding-top: 2em;
+    height: 120vh; /* Adjust this value as needed */
+  }
 }
 
 .hero-text {
@@ -66,8 +74,8 @@
 }
 
 .img-fluid {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   object-fit: cover;
 }
 
@@ -77,6 +85,28 @@
   text-align: center;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   height: 8em;
+  display: flex;
+  justify-content: center;
+}
+
+@media (orientation: portrait) {
+  .sponsor-bar {
+    height: 18em; /* Adjust this value as needed */
+  }
+  .col-md-4 {
+    padding-bottom: 2em; /* Reset the height to auto in portrait mode */
+  }
+}
+
+.sponsor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-sponsor {
+  max-height: 4em; /* Adjust the maximum height as needed */
+  width: auto; /* Ensure the width adjusts proportionally */
 }
 
 .desc-section {

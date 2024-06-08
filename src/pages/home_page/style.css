@@ -144,6 +144,11 @@
   height: 12em !important;
 }
 
+.card-news {
+  width: 18vw !important;
+  height: 14em !important;
+}
+
 .text-goals {
   font-size: 1.5em !important;
   display: -webkit-box;
@@ -178,6 +183,14 @@
   text-overflow: ellipsis;
 }
 
+.card-text-news {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card:hover {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   border: 0.15em solid #516c0d !important;
@@ -205,6 +218,10 @@
 }
 
 .hidden {
+  display: none;
+}
+
+.hidden-news {
   display: none;
 }
 
@@ -259,7 +276,17 @@
   }
 
   .card-goals {
-    width: 85vw !important;
+    width: 75vw !important;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  .card-news {
+    height: 5.5em !important;
+    margin-bottom: 1em !important;
+    width: 75vw !important;
   }
 }
 
@@ -300,6 +327,16 @@
   }
 
   .card-goals {
+    width: 85vw !important;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  .card-news {
+    height: 5.5em !important;
+    margin-bottom: 1em !important;
     width: 85vw !important;
   }
 }

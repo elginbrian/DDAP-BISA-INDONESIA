@@ -47,6 +47,10 @@
   height: 100vh;
 }
 
+.bottom-hero {
+  background: url("../../assets/BottomHero.png") no-repeat center center;
+}
+
 .hero-text {
   text-align: left;
 }
@@ -60,6 +64,15 @@
   background-color: #79a212 !important;
   border-color: #516c0d !important;
   color: #ffffff;
+}
+
+.btn-bottom {
+  background-color: rgba(195, 195, 195, 0.5) !important;
+  border-color: #ffffff !important;
+  color: #ffffff;
+  margin-top: 2em;
+  border-radius: 2em !important;
+  width: 12em;
 }
 
 .lead {

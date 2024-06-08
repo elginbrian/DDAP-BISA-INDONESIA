@@ -77,7 +77,8 @@
 .visi-section,
 .misi-section,
 .goals-section,
-.footer-section {
+.footer-section,
+.news-section {
   padding: 20px;
   text-align: center;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -99,13 +100,15 @@
 }
 
 .visi-section,
-.goals-section {
+.goals-section,
+.news-section {
   background-color: #f7fff3;
 }
 
 .desc-section,
 .visi-section,
-.goals-section {
+.goals-section,
+.news-section {
   height: 90vh;
 }
 
@@ -195,6 +198,29 @@
   transform: scale(1.1);
   background-color: #a0d619 !important;
   transition: transform 0.2s ease-in-out;
+}
+
+.hero-text {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-animation {
+  animation: slideIn 0.5s ease forwards;
 }
 
 @media (max-width: 768px) and (min-aspect-ratio: 3/4) {

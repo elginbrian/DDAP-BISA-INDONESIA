@@ -37,10 +37,10 @@
             <h1 class="display-4 text-hero">20.000 Donates</h1>
             <hr class="my-4" />
             <p class="lead">Your contribution means a lot for our earth</p>
-            <a class="btn btn-success btn-lg" href="#" role="button">Join us</a>
+            <a class="btn btn-success btn-lg" href="javascript:void(0)" role="button">Join us</a>
           </div>
           <div class="col-md-6">
-            <img src="..\..\assets\Decoration.png" class="img-fluid" alt="Responsive image" />
+            <img src="../../assets/Decoration.png" class="img-fluid" alt="Decoration" />
           </div>
         </div>
       </div>
@@ -51,13 +51,13 @@
     <div class="sponsor-bar">
       <div class="row">
         <div class="col-md-4 sponsor-img">
-          <img src="..\..\assets\Pertamina.png" class="img-fluid img-sponsor" alt="Responsive image" />
+          <img src="../../assets/Pertamina.png" class="img-fluid img-sponsor" alt="Pertamina" />
         </div>
         <div class="col-md-4 sponsor-img">
-          <img src="..\..\assets\CirebonPower.svg" class="img-fluid img-sponsor" alt="Responsive image" />
+          <img src="../../assets/CirebonPower.svg" class="img-fluid img-sponsor" alt="Cirebon Power" />
         </div>
         <div class="col-md-4 sponsor-img">
-          <img src="..\..\assets\Kementan.png" class="img-fluid img-sponsor" alt="Responsive image" />
+          <img src="../../assets/Kementan.png" class="img-fluid img-sponsor" alt="Kementan" />
         </div>
       </div>
     </div>
@@ -73,18 +73,22 @@
               BISA INDONESIA merupakan lembaga non-profit yang bergerak dalam bidang lingkungan hidup dan Sosial. Terbentuk pada tanggal 01 Februari 2016 di Daerah Istimewa Yogyakarta, BISA Indonesia diinisiasi oleh sepuluh orang yang
               terdiri dari berbagai latar belakang bidang ilmu, yang memiliki visi dan misi untuk melestarikan alam serta mensejahterakan manusia.
             </p>
-            <a class="btn btn-success btn-lg" href="#" role="button">Shorter View</a>
+            <a class="btn btn-success btn-lg" id="toggle-button" href="javascript:void(0)" role="button" onclick="toggleSections()">Show More</a>
           </div>
           <div class="col-md-6">
-            <img src="..\..\assets\Decoration2.png" class="img-fluid" alt="Responsive image" />
+            <img src="../../assets/Decoration2.png" class="img-fluid" alt="Decoration" />
           </div>
         </div>
       </div>
     </div>
     <!-- Desc End -->
 
+    <!-- News Start -->
+    <div class="news-section" id="news-section"></div>
+    <!-- News End -->
+
     <!-- Visi Start -->
-    <div class="visi-section">
+    <div class="visi-section hidden section-animation" id="visi-section">
       <div class="container">
         <div class="row">
           <div class="hero-text col-md-6">
@@ -100,7 +104,7 @@
     <!-- Visi End-->
 
     <!-- Misi Start -->
-    <div class="misi-section">
+    <div class="misi-section hidden section-animation" id="misi-section">
       <div class="container">
         <h1 class="display-4 desc-title">Mission</h1>
       </div>
@@ -159,7 +163,7 @@
     <!-- Misi End -->
 
     <!-- Goals Start -->
-    <div class="goals-section">
+    <div class="goals-section hidden section-animation" id="goals-section">
       <div class="container">
         <h1 class="display-4 desc-title">Goals</h1>
         <div class="card card-goals" style="width: 18rem">

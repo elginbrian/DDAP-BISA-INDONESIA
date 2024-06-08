@@ -105,7 +105,7 @@
 }
 
 .misi-section {
-  height: 120vh;
+  height: 160vh;
 }
 
 .visi-text {
@@ -127,7 +127,7 @@
   background-color: #f2f2f2 !important;
   border: 0.1em solid #516c0d !important;
   margin: 1em;
-  height: 12em !important;
+  height: 16em !important;
   width: 24em !important;
 }
 
@@ -140,6 +140,34 @@
 
 .desc-text {
   font-size: 1.1em !important;
+}
+
+.visi-img {
+  height: 40px !important;
+  width: auto;
+  margin-bottom: 16px;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  border: 0.15em solid #516c0d !important;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.text-hero:hover {
+  transform: scale(1.1);
+  color: #e1f0da !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #a0d619 !important;
+  transition: transform 0.2s ease-in-out;
 }
 
 @media (max-width: 768px) and (min-aspect-ratio: 3/4) {
@@ -169,11 +197,11 @@
   }
 
   .misi-section {
-    height: 160vh;
+    height: 220vh;
   }
   .card {
     width: 92vw !important;
-    height: 10em !important;
+    height: 12em !important;
     margin: 0 !important;
   }
 }
@@ -206,11 +234,11 @@
   }
 
   .misi-section {
-    height: 160vh;
+    height: 220vh;
   }
   .card {
     width: 92vw !important;
-    height: 10em !important;
+    height: 12em !important;
     margin: 0 !important;
   }
 }

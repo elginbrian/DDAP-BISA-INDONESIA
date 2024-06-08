@@ -159,15 +159,20 @@
 
 .desc-text {
   font-size: 1.1em !important;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .visi-img {
   height: 40px !important;
   width: auto;
   margin-bottom: 16px;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card:hover {

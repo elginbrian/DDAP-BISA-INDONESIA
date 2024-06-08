@@ -49,8 +49,10 @@
 /* For vertical orientation */
 @media (orientation: portrait) {
   .jumbotron {
-    padding-top: 2em;
     height: 120vh; /* Adjust this value as needed */
+  }
+  .hero-text {
+    padding-top: 1.5em !important;
   }
 }
 
@@ -122,6 +124,20 @@
   text-align: center;
 }
 
+.desc-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+@media (orientation: portrait) {
+  .desc-section {
+    height: 120vh;
+  }
+  .col-md-6 {
+    padding-bottom: 4em; /* Adjust the padding as needed */
+  }
+}
+
 .visi-section {
   background-color: #f7fff3;
   padding: 20px;
@@ -133,4 +149,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.visi-text {
+  text-align: center;
+  font-size: 1.5em !important;
+}
+
+@media (orientation: portrait) {
+  .visi-section {
+    height: 120vh;
+  }
 }

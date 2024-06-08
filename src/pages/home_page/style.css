@@ -159,7 +159,7 @@
 
 .card-news {
   width: 18vw !important;
-  height: 16em !important;
+  height: 18em !important;
 }
 
 .text-goals {
@@ -199,7 +199,7 @@
 .card-text-news {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
 }

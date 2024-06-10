@@ -209,8 +209,14 @@
   border: 0.15em solid #516c0d !important;
 }
 
-.img-fluid:hover {
+.navbar-brand:hover {
+  color: #e1f0da !important;
   transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
 }
 

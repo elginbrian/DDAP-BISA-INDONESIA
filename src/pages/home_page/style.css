@@ -60,6 +60,10 @@
   font-size: 3em !important;
 }
 
+.text-hero {
+  font-size: 3.5em !important;
+}
+
 .btn-success {
   background-color: #79a212 !important;
   border-color: #516c0d !important;
@@ -263,8 +267,13 @@
   .jumbotron {
     height: 120vh;
   }
+
   .hero-text {
     padding-top: 1.5em !important;
+  }
+
+  .text-hero {
+    font-size: 3em !important;
   }
 
   .sponsor-bar {
@@ -316,6 +325,10 @@
   }
   .hero-text {
     padding-top: 1.5em !important;
+  }
+
+  .text-hero {
+    font-size: 2.5em !important;
   }
 
   .sponsor-bar {

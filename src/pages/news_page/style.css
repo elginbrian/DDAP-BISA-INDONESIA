@@ -31,19 +31,6 @@
   font-weight: bold;
 }
 
-.green-section {
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #79a212;
-  height: 6em;
-  z-index: 5;
-}
-
 .carousel {
   border-radius: 2em !important;
   background-size: cover;
@@ -55,7 +42,8 @@
   text-align: center;
   position: relative;
   z-index: 1;
-  height: calc(60vh - 6em);
+  height: calc(75vh);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-inner {
@@ -79,48 +67,33 @@
   z-index: -1;
 }
 
-/* .program-section,
-.concern-section {
-  margin-top: 4em !important;
-  margin: 2em;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #d5ecca;
-  border: 0.2em solid #79a212;
-  border-radius: 1em !important;
-  height: 10em;
-  z-index: 5;
-} */
+.carousel-caption .bg-opacity {
+  background-color: rgba(167, 165, 165, 0.5); /* Semi-transparent black */
+  color: #ffffff;
+}
 
+/* Program and Concern Section Styles */
 .program-section,
-.concern-section {
-  margin: 4em auto 2em auto !important;
-  margin-left: 2em !important;
-  margin-right: 2em !important;
+.concern-section,
+.popular-section {
+  margin-top: 2em !important;
   padding: 2em;
-  background-color: #e1f0da;
-  border: 0.2em solid #79a212;
+  background-color: #d4f1c7;
+  border: 0.1em solid #79a212;
   border-radius: 1em;
   position: relative;
-  max-width: 38em !important;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 5;
-  height: 12em;
 }
 
 .join-container {
-  padding-top: 4em !important;
+  background: url("../../assets/BottomHero.png") no-repeat center center !important;
+  padding-top: 2em !important;
   background-color: #e1f0da;
   position: relative;
-  width: 100vw;
+  width: 100%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 5;
-  height: 12em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,11 +109,13 @@
   font-weight: bold;
   font-size: 1.5em;
   color: #516c0d;
+  border: 0.08em solid #79a212;
+  border-radius: 1em;
 }
 
 .section-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -167,4 +142,44 @@
 
 .more-link:hover {
   text-decoration: underline;
+}
+
+.popular-section {
+  margin-top: 1em !important;
+  margin-left: 6em !important;
+  margin-bottom: 4em !important;
+  height: 100vh !important;
+  width: 87vw !important;
+}
+
+.footer-section {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #79a212;
+  height: 8em;
+}
+
+.card {
+  width: 82vw;
+  height: 12em !important;
+  position: relative;
+  margin-bottom: 1em !important;
+  border-radius: 1em !important;
+}
+
+.card-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover; /* Ensures the image covers the entire card without distortion */
+}
+
+.card:hover {
+  transform: scale(1.025);
+  transition: transform 0.2s ease-in-out;
+  border: 0.1em solid #79a212;
 }

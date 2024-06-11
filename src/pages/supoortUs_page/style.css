@@ -1,0 +1,77 @@
+.navbar {
+  margin-top: 3em;
+  border: 0.1em solid #516c0d;
+  border-radius: 2em;
+  margin: 1em;
+  background-color: rgba(195, 195, 195, 0.5);
+  position: fixed !important;
+  width: calc(100% - 2em);
+  z-index: 10;
+}
+
+.navbar-nav {
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  border-radius: 2em !important;
+}
+
+.navbar-toggler:hover {
+  border: 0.1em solid #516c0d;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #516c0d;
+  font-weight: bold;
+}
+
+.support-with {
+  height: 110vh;
+  
+}
+
+.support-with-text {
+  padding-top: 20vh;
+  font-weight: lighter;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.volunter {
+  background-image: url("../../assets/Volunter.png");
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  
+}
+
+.organization {
+  background-image: url("../../assets/Volunter.png");
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}

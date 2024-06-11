@@ -1,0 +1,68 @@
+/* General Styles */
+.navbar {
+  margin-top: 3em;
+  border: 0.1em solid #516c0d;
+  border-radius: 2em;
+  margin: 1em;
+  background-color: rgba(195, 195, 195, 0.5);
+  position: fixed !important;
+  width: calc(100% - 2em);
+  z-index: 10;
+}
+
+.navbar-nav {
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  border-radius: 2em !important;
+}
+
+.navbar-toggler:hover {
+  border: 0.1em solid #516c0d;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #516c0d;
+  font-weight: bold;
+}
+
+.desc-section {
+    margin-left: -1vw;
+    margin-right: -1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E1F0DA;
+}
+
+.desc-title {
+    font-weight: bold !important;
+    text-align: center;
+    font-size: 3em !important;
+}
+
+.desc-text {
+    padding-top: 1vw;
+    font-size: 1.1em !important;
+  }
+
+.img-fluid {
+  margin-left: 3vw !important;
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
+
+
+  
+
+
+

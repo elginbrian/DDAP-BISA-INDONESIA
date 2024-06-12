@@ -1,12 +1,25 @@
 /* General Styles */
 .navbar {
-  border: 0.1em solid #516c0d;
   border-radius: 2em;
   margin: 1em;
-  background-color: rgba(195, 195, 195, 0.5);
+  background-color: rgba(58, 73, 55, 0.5);
   position: fixed !important;
   width: calc(100% - 2em);
   z-index: 10;
+}
+
+.current {
+  color: #ffffff !important;
+  text-decoration: none;
+  background-color: #79a212 !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  border-radius: 1.2em !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .navbar-nav {
@@ -25,11 +38,6 @@
 
 .navbar-toggler:hover {
   border: 0.1em solid #516c0d;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #516c0d;
-  font-weight: bold;
 }
 
 .jumbotron {

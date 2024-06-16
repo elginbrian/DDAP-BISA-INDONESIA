@@ -165,7 +165,7 @@
 }
 
 .card-goals {
-  width: 85vw !important;
+  width: 100% !important;
   height: 12em !important;
 }
 
@@ -378,5 +378,15 @@
     height: 5.5em !important;
     margin-bottom: 1em !important;
     width: 85vw !important;
+    padding-bottom: 1em !important;
+  }
+
+  .card-text-news {
+    -webkit-line-clamp: 2 !important;
+  }
+
+  .bottom-hero {
+    height: 20em;
+    padding-bottom: 4em !important;
   }
 }

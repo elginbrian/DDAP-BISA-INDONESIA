@@ -61,6 +61,7 @@
 .hubungi-section {
   background-color: #f7fff3;
 }
+
 .desc-title {
   margin-top: 1.5em;
   text-align: center;
@@ -127,4 +128,14 @@
   align-items: center;
   background-color: #79a212;
   height: 8em;
+}
+
+@media (orientation: portrait) {
+  .hubungi-card {
+    width: 80vw !important;
+  }
+
+  .container-fluid {
+    width: 90vw !important;
+  }
 }

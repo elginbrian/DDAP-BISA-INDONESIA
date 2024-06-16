@@ -109,7 +109,7 @@
 #popular-section {
   margin: 0 !important;
   background-color: #f7fff3;
-  padding: 4em !important;
+  padding: 4em 0 !important; /* Adjust padding as needed */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@
 }
 
 .popular-section {
-  padding: 2em !important;
+  padding: 2em 0 !important; /* Adjust padding as needed */
   background-color: #f2f2f2 !important;
   border: 0.1em solid #79a212;
   border-radius: 1em;
@@ -129,6 +129,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 105vh !important;
+  width: 75vw !important;
 }
 
 .card-title,
@@ -186,20 +188,6 @@
   text-decoration: underline;
 }
 
-.popular-section {
-  height: 105vh !important;
-  width: 75vw !important;
-}
-
-@media (orientation: portrait) {
-  .popular-section {
-    width: 90vw !important;
-  }
-  .card {
-    width: 85vw !important;
-  }
-}
-
 .footer-section {
   padding: 20px;
   text-align: center;
@@ -230,4 +218,39 @@
   transform: scale(1.025);
   transition: transform 0.2s ease-in-out;
   border: 0.1em solid #79a212;
+}
+
+@media (orientation: portrait) {
+  .carousel {
+    height: 40vh !important;
+  }
+
+  .popular-section {
+    height: 70em !important;
+    width: 85vw !important;
+    padding: 0 1.5em !important; /* Ensure no extra padding on top and bottom */
+  }
+  .card {
+    height: 20em !important;
+    width: 100% !important;
+  }
+  .section-content img {
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 1em;
+    object-fit: cover;
+    margin-right: 0.5em;
+  }
+
+  .program-section,
+  .concern-section {
+    margin-top: 2em !important;
+    padding: 1em !important;
+    background-color: #f2f2f2 !important;
+    border: 0.1em solid #79a212;
+    border-radius: 1em;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+  }
 }

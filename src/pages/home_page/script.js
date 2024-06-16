@@ -14,10 +14,11 @@ function toggleSections() {
   if (!isHidden) {
     newsSection.classList.toggle("hidden-news");
     bottomHero.classList.toggle("hidden-news");
-  } else if (isHidden) {
+  } else {
     newsSection.classList.toggle("hidden-news");
     bottomHero.classList.toggle("hidden-news");
   }
+
   button.textContent = isHidden ? "Show More" : "Show Less";
 }
 
@@ -27,3 +28,23 @@ document.addEventListener("DOMContentLoaded", function () {
   newsSection.classList.toggle("hidden-news");
   bottomHero.classList.toggle("hidden-news");
 });
+
+function toggleSections() {
+  const button = document.getElementById("toggle-button");
+  const visiSection = document.getElementById("visi-section");
+  const misiSection = document.getElementById("misi-section");
+
+  if (button.getAttribute("aria-expanded") === "false") {
+    button.setAttribute("aria-expanded", "true");
+    button.setAttribute("aria-label", "Show Less");
+    button.textContent = "Show Less";
+    visiSection.classList.remove("hidden");
+    misiSection.classList.remove("hidden");
+  } else {
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-label", "Show More");
+    button.textContent = "Show More";
+    visiSection.classList.add("hidden");
+    misiSection.classList.add("hidden");
+  }
+}

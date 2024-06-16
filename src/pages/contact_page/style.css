@@ -133,9 +133,13 @@
 @media (orientation: portrait) {
   .hubungi-card {
     width: 80vw !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 
   .container-fluid {
     width: 90vw !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }

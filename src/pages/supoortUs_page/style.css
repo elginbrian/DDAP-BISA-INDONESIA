@@ -54,17 +54,9 @@
 }
 
 .volunter {
-  background-image: url("../../assets/Volunter.png");
-  background-size: cover;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  height: 100vh;
+  background-image: url(../../assets/Volunter.png);
+  height: 40vw;
+  width: 40vw;
 }
 
 .organization {

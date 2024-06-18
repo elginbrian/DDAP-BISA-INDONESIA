@@ -53,14 +53,9 @@
   align-items: center;
 }
 
-.volunter {
-  background-image: url(../../assets/Volunter.png);
-  height: 40vw;
-  width: 40vw;
-}
-
 .organization {
   background-image: url("../../assets/Volunter.png");
+  height: 84vh !important;
   background-size: cover;
   color: #ffffff;
   display: flex;
@@ -70,5 +65,19 @@
   text-align: center;
   position: relative;
   z-index: 1;
-  height: 100vh;
+}
+
+.btn {
+  padding: 2vh 8vh !important;
+}
+
+.donate-content-ni {
+  height: 84vh !important;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }

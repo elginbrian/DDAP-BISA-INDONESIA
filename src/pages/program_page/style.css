@@ -43,13 +43,18 @@
   text-align: center;
 }
 
+.our-group {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-bottom: 12vh;
+} 
+
 .our-group-content {
-  height: 60vh;
-  background-color: #ffffff;
-  border-radius: 10vh;
-  width: 92%;
-  padding-left: 4% !important;
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center !important;
+  margin: 0 10vw;
+  background-color: #F2F2F2;
+}
+
+.our-group-img1 {
+  height: 40vh;
 }

@@ -38,3 +38,10 @@
 .navbar-toggler:hover {
   border: 0.1em solid #516c0d;
 }
+
+.concern-text {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border radius: 1.2em !important;
+
+}
